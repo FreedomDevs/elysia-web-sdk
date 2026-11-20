@@ -1,0 +1,16 @@
+{
+  "name": "elysia-sdk-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm",
+  "devDependencies": {
+    "@changesets/cli": "^3.0.3",
+    "tsup": "^9.0.0",
+    "typescript": "~5.9.3"
+  },
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r --parallel dev",
+    "typecheck": "tsc --noEmit"
+  }
+}
